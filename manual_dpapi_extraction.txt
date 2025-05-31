@@ -1,0 +1,1 @@
+Error: type object 'OffineRegistry' has no attribute 'from_file'

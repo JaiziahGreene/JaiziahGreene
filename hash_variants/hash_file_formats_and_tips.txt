@@ -1,0 +1,29 @@
+Hey everyone,
+
+So this might seem like a more unusual way of presenting the hashes but this should hopefully make the cracking easier. Keep in mind that all the LM & NTLM hash pairs correspond to the same password, they're both included so that it makes cracking the final exact password accurately which is the NTLM hash easier since LM hashes are much more weaker. Also the "strong passwords" are seperated here because they're simply just not compatible with the LM hashing system like they could be passing the character limit or some other restriction for example.
+
+---
+
+**1. NTLM:LM Pairs (`ntlm_lm_pairs.txt`)**
+- Each line is formatted as: `NTLM_HASH:LM_HASH`
+- If there's no LM hash for an account, the part after the colon will be blank.
+- This is the classic format for hashcat and similar tools hopefully
+
+**2. NTLM Only (`ntlm_only.txt`)**
+- Each line contains just a unique NTLM hash.
+- Use this if you only want to target NTLM hashes directly.
+
+**3. LM Only (`lm_only.txt`)**
+- Each line contains a unique LM hash (no blanks).
+- LM hashes are much weaker and easier to crack than NTLM. If you crack an LM hash, you can usually use the same password to unlock the corresponding NTLM hash for that password. That's why these are provided separately.
+
+**4. Strong Passwords (`strong_passwords.txt`)**
+- These are NTLM hashes for accounts that don't have an LM hash at all. This usually means the password is complex enough that Windows didn't generate an LM hash for it. These are the toughest nuts to crack, so good luck!
+
+---
+
+Thanks in advance to everyone who helps out with cracking these! Every little bit helps, and your efforts are appreciated.
+Hope all this isn't too much of an inconvenience to yall and you can work with this.
+Let me know if you have any issues or would like to be present this in alternative formats, I'll make sure to accommodate.
+
+Happy cracking!

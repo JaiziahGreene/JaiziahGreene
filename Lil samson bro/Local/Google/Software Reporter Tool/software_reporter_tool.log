@@ -1,0 +1,196 @@
+[0511/100428.077:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0511/100428.221:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0511/100428.221:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=ny1pfdasssw4hfug2xgvecsxhz8grulu7aebqylm --srt-field-trial-group-name=newcleaneruiexperiment
+[0511/100428.225:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0511/100428.226:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0511/100428.226:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0511/100428.227:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0511/100428.236:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_6616_NTRHGKQRMZDHMKVY" --sandboxed-process-id=2 --init-done-notifier=740 --sandbox-mojo-pipe-token=3471068903780954495 --mojo-platform-channel-handle=716 --engine=2
+[0511/100428.709:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_6616_NTRHGKQRMZDHMKVY" --sandboxed-process-id=3 --init-done-notifier=988 --sandbox-mojo-pipe-token=15361909447312183705 --mojo-platform-channel-handle=984
+[0511/100428.889:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100428.889:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100435.683:ERROR:file_path_sanitization.cc(323)] IsFilePresentLocally failed to get attributes: CSIDL_SYSTEM\{222a245b-e637-4ae9-a93f-a59ca119a75e}: The system cannot find the file specified. (0x2)
+[0511/100503.509:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100503.509:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100503.761:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100503.761:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100503.762:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100503.762:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.095:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.095:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.097:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.097:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.874:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100508.874:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0511/100509.447:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/100509.447:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/100509.449:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/100509.449:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/100509.450:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/100509.450:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0511/101018.892:ERROR:scanner_sandbox_interface.cc(617)] Call to NtOpenKey failed. Returned: -1073741790, path: Ctes Manager\0
+[0511/101018.894:ERROR:scanner_sandbox_interface.cc(617)] Call to NtOpenKey failed. Returned: -1073741790, path: Ctes Manager\0
+[0511/101031.070:ERROR:scanner_sandbox_interface.cc(501)] Failed to open CSIDL_WINDOWS\tasks\createexplorershellunelevatedtask.job: Access is denied. (0x5)
+[0511/101031.072:ERROR:scanner_sandbox_interface.cc(501)] Failed to open CSIDL_WINDOWS\tasks\createexplorershellunelevatedtask.job: Access is denied. (0x5)
+[0511/101055.987:INFO:logging_conversion.cc(38)] Engine Scan exited with status code 0x0
+[0511/101055.988:INFO:chrome_reporter_main.cc(92)] Exiting with code: 2
+[0706/092207.634:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0706/092207.719:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0706/092207.719:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=fpuvom83jo+e9nkvibjzv/17ui863wcrl2/rwebe --srt-field-trial-group-name=off
+[0706/092207.728:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0706/092207.730:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0706/092207.730:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0706/092207.731:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0706/092207.746:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_9124_SNGRDLTWPLMCUKZU" --sandboxed-process-id=2 --init-done-notifier=780 --sandbox-mojo-pipe-token=1959177811533321023 --mojo-platform-channel-handle=756 --engine=2
+[0706/092211.823:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_9124_SNGRDLTWPLMCUKZU" --sandboxed-process-id=3 --init-done-notifier=1008 --sandbox-mojo-pipe-token=6897912648514869488 --mojo-platform-channel-handle=1004
+[0706/092211.948:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0706/092211.948:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0706/093248.359:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0706/093249.844:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0706/093249.844:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=t4spyqkqlovquw3x/xrk52hhtunbvsnesy3ebon1 --srt-field-trial-group-name=newcleaneruiexperiment
+[0706/093249.860:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0706/093249.860:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0706/093249.860:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0706/093249.860:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0706/093251.106:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_8260_ZLJBFTBOORSBYZHP" --sandboxed-process-id=2 --init-done-notifier=748 --sandbox-mojo-pipe-token=10127906441701676900 --mojo-platform-channel-handle=704 --engine=2
+[0925/121349.519:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/121350.481:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0925/121350.481:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=uwu5vm6kep38z82a2yrzzmaiszpsxfagiuwsvwcr --srt-field-trial-group-name=off
+[0925/121350.490:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/121350.492:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/121350.492:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/121350.493:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/121350.599:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_10008_MEOCRCHHNBVACJHC" --sandboxed-process-id=2 --init-done-notifier=772 --sandbox-mojo-pipe-token=9122392167242388090 --mojo-platform-channel-handle=756 --engine=2
+[0925/121357.029:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_10008_MEOCRCHHNBVACJHC" --sandboxed-process-id=3 --init-done-notifier=800 --sandbox-mojo-pipe-token=11033756148975170195 --mojo-platform-channel-handle=936
+[0925/121357.851:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/121357.866:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124139.185:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/124139.230:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0925/124139.230:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=fn7y1k6is38nkq1+ucgfpdxpvuqotodiu0gxll65 --srt-field-trial-group-name=newcleaneruiexperiment
+[0925/124139.246:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/124139.246:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/124139.246:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/124139.246:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/124139.270:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_4740_VNKEGJADYNDCVLRG" --sandboxed-process-id=2 --init-done-notifier=752 --sandbox-mojo-pipe-token=16083087805982096038 --mojo-platform-channel-handle=728 --engine=2
+[0925/124140.040:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_4740_VNKEGJADYNDCVLRG" --sandboxed-process-id=3 --init-done-notifier=980 --sandbox-mojo-pipe-token=3823426128528662775 --mojo-platform-channel-handle=948
+[0925/124140.200:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124140.202:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124151.306:ERROR:file_path_sanitization.cc(323)] IsFilePresentLocally failed to get attributes: CSIDL_SYSTEM\{222a245b-e637-4ae9-a93f-a59ca119a75e}: The system cannot find the file specified. (0x2)
+[0925/124208.613:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124208.614:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124210.853:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124210.853:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.827:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.828:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.903:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.904:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.904:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124214.904:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124217.206:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124217.206:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124217.474:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124217.474:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/124217.476:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/124217.476:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/124217.477:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/124217.477:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/124217.478:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/124217.478:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[0925/142514.701:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/142514.764:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[0925/142514.764:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=u9u64bh2ngw0ngeblirue1u3rgsiofpozsqawlc4 --srt-field-trial-group-name=newcleaneruiexperiment
+[0925/142514.771:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/142514.772:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/142514.772:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/142514.774:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/142514.811:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_4020_BWCZMWGWMYTAPCBO" --sandboxed-process-id=2 --init-done-notifier=752 --sandbox-mojo-pipe-token=14929576238256363878 --mojo-platform-channel-handle=728 --engine=2
+[0925/142515.175:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_4020_BWCZMWGWMYTAPCBO" --sandboxed-process-id=3 --init-done-notifier=992 --sandbox-mojo-pipe-token=9117247932696407091 --mojo-platform-channel-handle=988
+[0925/142515.284:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[0925/142515.284:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094050.216:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[1101/094050.300:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[1101/094050.300:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=xz7mkxdvgcopskye05pzahgswqvz7fjtohlkj3fw --srt-field-trial-group-name=off
+[1101/094050.300:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[1101/094050.300:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[1101/094050.300:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[1101/094050.300:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[1101/094050.416:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_1868_ZMRKMENBYYPOFQTG" --sandboxed-process-id=2 --init-done-notifier=752 --sandbox-mojo-pipe-token=15818092615244637051 --mojo-platform-channel-handle=728 --engine=2
+[1101/094051.401:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_1868_ZMRKMENBYYPOFQTG" --sandboxed-process-id=3 --init-done-notifier=980 --sandbox-mojo-pipe-token=11478668609317341055 --mojo-platform-channel-handle=976
+[1101/094051.703:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094051.711:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094052.714:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094052.770:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094104.016:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094104.016:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094104.076:ERROR:file_path_sanitization.cc(323)] IsFilePresentLocally failed to get attributes: CSIDL_SYSTEM\{222a245b-e637-4ae9-a93f-a59ca119a75e}: The system cannot find the file specified. (0x2)
+[1101/094135.381:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094135.381:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094135.381:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094135.381:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.085:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.085:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.086:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.086:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.086:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.086:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.090:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.090:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.090:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.090:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.091:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.091:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.599:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094137.600:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094138.803:ERROR:scanner_sandbox_interface.cc(112)] Error querying process command line length -1073741558
+[1101/094138.803:ERROR:process.cc(31)] Failed to enumerate modules: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1101/094139.624:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094139.624:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.626:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.626:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.627:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.627:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.628:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.628:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.628:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.630:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.630:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.630:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.631:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094140.631:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094143.028:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094143.028:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094211.202:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094211.320:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094213.375:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094213.376:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094213.376:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094213.376:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.003:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.018:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.049:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.705:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094217.705:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(92)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(411)] Failed to open process: The parameter is incorrect. (0x57)
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094218.322:ERROR:scanner_sandbox_interface.cc(555)] Failed to open registry key: 0x5
+[1101/094240.281:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[1101/094240.329:INFO:crashpad_crash_reporter.cc(92)] Crash handler launched and ready.
+[1101/094240.329:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --disabled-locations=9,11 --enable-crash-reporting --engine=2 --registry-suffix=eset --scan-locations=1,2,3,4,5,6,7,8,10 --session-id=o4leu6g/xkrfsuuggjgoifpyz9eclxdmxzdo5n1h --srt-field-trial-group-name=newcleaneruiexperiment
+[1101/094240.334:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[1101/094240.334:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[1101/094240.335:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[1101/094240.335:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[1101/094240.350:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_9956_BTFBUDBOBUQFPBJK" --sandboxed-process-id=2 --init-done-notifier=752 --sandbox-mojo-pipe-token=16324393003652217292 --mojo-platform-channel-handle=716 --engine=2
+[1101/094241.092:INFO:sandbox.cc(276)] Starting sandbox process with command line arguments: --enable-crash-reporting --use-crash-handler-with-id="\\.\pipe\crashpad_9956_BTFBUDBOBUQFPBJK" --sandboxed-process-id=3 --init-done-notifier=980 --sandbox-mojo-pipe-token=16464193851646468344 --mojo-platform-channel-handle=976

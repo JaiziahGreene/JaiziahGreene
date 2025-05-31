@@ -1,0 +1,84 @@
+{
+   "checksum": "13053daa221f3a69d4be5e4536253ea6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13201101580000000",
+            "date_last_used": "0",
+            "guid": "3e0a249c-a47e-4867-beef-4f52f023d8c1",
+            "id": "5",
+            "name": "HRCE Email",
+            "type": "url",
+            "url": "https://outlook.hrsb.ns.ca/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2foutlook.hrsb.ns.ca%2fowa"
+         }, {
+            "date_added": "13201101547000000",
+            "date_last_used": "0",
+            "guid": "0d86c554-8710-4960-9dcc-4577ea33d4a1",
+            "id": "6",
+            "name": "GNSPES",
+            "type": "url",
+            "url": "http://gnspes.ca/"
+         }, {
+            "date_added": "13201101631000000",
+            "date_last_used": "13391098126844530",
+            "guid": "35400b23-0afa-4521-a5a0-e0e17a7f91cf",
+            "id": "7",
+            "name": "PowerTeacher",
+            "type": "url",
+            "url": "https://sishrsb.ednet.ns.ca/teachers/pw.html"
+         }, {
+            "date_added": "13201101646000000",
+            "date_last_used": "0",
+            "guid": "1cb82490-ff20-4603-a8fb-734365665e7b",
+            "id": "8",
+            "name": "Substitutes - PowerTeacher",
+            "type": "url",
+            "url": "https://sishrsb.ednet.ns.ca/subs/pw.html"
+         }, {
+            "date_added": "13201101605000000",
+            "date_last_used": "0",
+            "guid": "de627083-2ad4-487e-ab27-4128494b6523",
+            "id": "9",
+            "name": "HelpDesk",
+            "type": "url",
+            "url": "https://helpdesk.hrce.ca/TrackIt/SelfService/Account/LogIn?ReturnUrl=%2fTrackIt%2fSelfService"
+         }, {
+            "date_added": "13201101759000000",
+            "date_last_used": "0",
+            "guid": "d33685f5-7b6d-440d-b8bb-537663fc9911",
+            "id": "10",
+            "name": "For Staff | Halifax Regional Centre for Education",
+            "type": "url",
+            "url": "https://www.hrce.ca/for-staff"
+         } ],
+         "date_added": "13203199654160516",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13203199654160547",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13203199654160550",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

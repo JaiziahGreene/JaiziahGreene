@@ -1,0 +1,3 @@
+Total NTLM hashes with passwords: 118
+Total usernames matched: 118
+Total unmatched hashes (username=unknown): 0

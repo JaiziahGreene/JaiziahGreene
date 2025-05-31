@@ -1,0 +1,21 @@
+# Hash Variant Update Plan (May 25, 2025)
+
+## Approach
+- Aggregate all found NTLM hashes and their passwords from all found lists.
+- For each hash variant file:
+  - Remove any NTLM hash that is found.
+  - For LM hashes, remove any that are paired with a found NTLM hash in the pairs file.
+  - For NTLM:LM pairs, remove any pair where the NTLM hash is found.
+  - For strong passwords, remove any found NTLM hash.
+- For "found" lists: include both hash and password.
+- For "left" lists: include only hashes (or hash pairs), no passwords or placeholders.
+
+## Output
+- Updated variant files (ntlm_only, lm_only, ntlm_lm_pairs, strong_passwords)
+- For each variant:
+  - <variant>_found.txt (with passwords)
+  - <variant>_left.txt (hashes only)
+
+---
+
+This file documents the update plan and ensures traceability for forum release.

@@ -1,0 +1,1184 @@
+/******************************************************************************/
+/******************** Outer Containing DOM Objects ****************************/
+/******************************************************************************/
+#content-main {
+	padding-bottom: 0;
+}
+
+/* Seating Chart Outermost div */
+.pssc {
+	position: relative;		/* required */
+}
+
+/* Seating Chart Layout Name, only used during printing */
+.pssc .pssc-layoutName {
+	display: none;
+}
+
+/* Custom Content Injection Point not supported (aka. hidden) on this page as it inteferes with UI */
+#cust-content-footer {
+	display: none;
+}
+
+
+/******************************************************************************/
+/******** Left Slider Drawing (Student List) & Student Holding Div ************/
+/******************************************************************************/
+/* Student List Selection (aka. Holding area) */
+.pssc .pssc-sideMenuPanel {
+	/* Styles overwritten in JS code: top, left, height, width, z-index */
+	position: absolute;		/* required */
+	padding: 0;				/* required */
+	overflow: visible;		/* required */
+	background-color: #E7E7E7;
+	margin-top: 0;
+	border-inline-end: 1px solid #999;
+}
+
+.pssc .pssc-populateStudentDiv {
+	position: absolute;		/* required */
+	top: 0;					/* required */
+	left: 0;				/* required */
+	width: 100%;			/* required */
+	padding: 0;				/* required */
+	display: block;			/* required */
+	overflow: visible;		/* required */
+	text-align: center;
+	border-bottom: 1px solid #999;
+	background-color: inherit;
+	font-size: 13px;
+}
+
+.pssc .pssc-clearStudentDiv {
+	position: absolute;		/* required */
+	bottom: 0;				/* required */
+	left: 0;				/* required */
+	width: 100%;			/* required */
+	padding: 0;				/* required */
+	display: block;			/* required */
+	overflow: visible;		/* required */
+	text-align: center;
+	border-top: 1px solid #999;
+	background-color: inherit;
+}
+
+.pssc button.pssc-populateStudent, .pssc button.pssc-clearStudent {
+	white-space: nowrap;
+	margin-inline-start: 0;
+}
+
+.pssc button.pssc-populateStudent em, .pssc button.pssc-clearStudent em {
+	float: right;
+	margin: 0 -5px 0 2px;
+}
+
+[dir=rtl]  .pssc button.pssc-clearStudent em {
+    float: left;
+    margin: 0 2px 0 -4px;
+}
+
+[dir=rtl]  .pssc button.pssc-populateStudent em {
+    float: left;
+    margin: 0 2px 0 -4px;
+}
+
+.pssc .pssc-studentList {
+	/* This is the holding area for the students whom have no seats assigned. */
+	position: absolute;		/* required */
+	top: 0;					/* required */
+	left: 0;				/* required */
+	width: 100%;			/* required */
+	padding: 0;				/* required */
+	display: block;			/* required */
+	overflow: auto;			/* required */
+	overflow-x: hidden;
+	background-color: #eee;
+}
+
+.pssc .pssc-sideMenuPanel.collapsed .pssc-studentList, .pssc .pssc-sideMenuPanel.collapsed .pssc-populateStudentDiv, .pssc .pssc-sideMenuPanel.collapsed .pssc-clearStudentDiv, .pssc .ClassToolsMode .pssc-populateStudentDiv, .pssc .ClassToolsMode .pssc-clearStudentDiv {
+	display: none;			/* required */
+}
+
+.pssc .pssc-studentList .pssc-studentHoldDiv {
+	/* This is a single student item in the holding area (aka. not in a seat) */
+	/* Styles overwritten in JS code: overflow, padding, width, height, margin */
+	background: none repeat scroll 0 0 #FFF;
+	border: 2px solid #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0;
+}
+
+.pssc .pssc-studentHoldDiv.ui-draggable-dragging {
+	/* This is the student item that is being dragged with the mouse (not the one in the hold area) */
+	background-color: #fff;
+	border: 2px solid #333;
+	-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+	box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+	opacity: .6;
+	filter: Alpha(Opacity = 60);
+}
+
+.pssc .pssc-studentHoldDiv.ui-draggable-dragging .pssc-studentMaskDiv {
+	display: none;
+}
+
+.pssc .pssc-studentList .pssc-studentHoldDiv.dragging {
+	/* This is the student item in the hold area while it's being dragged (not the one following the mouse) */
+	border-color: #F93;
+}
+
+/* Styles for Navigation Collapse*/
+.pssc .pssc-sideMenuPanel .pssc-studListHideToggle {
+	/* Styles overwritten in JS code: left, z-index */
+	position: absolute;	/* required */
+	top: -1px;			/* required */
+	height: 16px;
+	width: 10px;
+	background-color: inherit;
+	z-index: 2;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-start-start-radius: 0;
+	-webkit-border-end-start-radius: 0;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-start-end-radius: 5px;
+	-webkit-border-end-end-radius: 5px;
+	border-start-end-radius: 5px;
+	border-end-end-radius: 5px;
+	border: 1px solid #999;
+	border-inline-start: none;
+}
+ 
+.pssc .pssc-sideMenuPanel .pssc-studListHideToggle em {
+	position: absolute;
+	top: 0;
+	inset-inline-end: 0;
+	height: 14px;
+	width: 14px;
+	background: url("../img/jquery/ui-icons_222222_256x240.png") no-repeat -33px -17px;
+}
+
+[dir=rtl] .pssc .pssc-sideMenuPanel .pssc-studListHideToggle em {
+	background: url("../img/jquery/ui-icons_222222_256x240.png") no-repeat -96px -17px;
+}
+
+.pssc .pssc-sideMenuPanel .pssc-studListHideToggle:hover {
+	width: 16px;
+	height: 32px;
+	z-index: 100;
+	cursor: pointer;
+}
+ 
+.pssc .pssc-sideMenuPanel.expanded .pssc-studListHideToggle em {
+	background-position: -96px -17px;
+}
+
+[dir=rtl] .pssc .pssc-sideMenuPanel.expanded .pssc-studListHideToggle em {
+    background-position: -33px -17px;
+}
+
+
+
+/******************************************************************************/
+/****************** Student DOM Object and Containers *************************/
+/******************************************************************************/
+.pssc .pssc-studentDiv {
+	/* This is for the student div in both the seating area and holding area. */
+	/* Styles overwritten in JS code: position, font-size, line-height */
+	position: relative;			/* required */
+}
+
+.pssc .pssc-studentDiv .pssc-photoDiv {
+	/* This is specific to the Student Photo's div. */
+	/* Styles overwritten in JS code: width, height */
+	margin: 0;					/* required */
+	padding: 0;					/* required */
+	border-style: none;			/* required */
+}
+
+.pssc .pssc-studentDiv .pssc-photoDiv img {
+	width: 100%;				/* required */
+	height: 100%;				/* required */
+}
+
+.pssc .pssc-studentDiv .pssc-studentNameWrapperDiv {
+	/* This div wraps the the inner div. */
+	/* Styles overwritten in JS code: width */
+	position: absolute;			/* required */
+	inset-inline-start: 0;					/* required */
+	bottom: 0;					/* required */
+	overflow: hidden;			/* required */
+	margin: 0;					/* required */
+	padding: 0;					/* required */
+}
+
+.pssc .pssc-studentDiv .pssc-studentNameWrapperDiv > div {
+	/* This div wraps the Student Name's span. */
+	/* Styles overwritten in JS code: width */
+	margin: 0;					/* required */
+	padding: 0;					/* required */
+	text-align: center;			/* required */
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	border-bottom-color: #666666;
+	border-inline-start-color: #666666;
+	border-top-color: -moz-use-text-color;
+	background-color: #EEF;
+	background-color: rgba(238, 238, 255, 0.7);
+}
+
+.pssc .pssc-studentDiv .pssc-studentNameWrapperDiv.longName > div {
+	text-align: left;			/* required */
+	-webkit-border-start-end-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-start-end-radius: 3px;
+}
+
+.pssc .pssc-studentDiv .pssc-studentNameSpan {
+	/* This is specific to the Student Name's span. */
+	/* Styles overwritten in JS code: font-size, line-height */
+	margin: 0;					/* required */
+	white-space: nowrap;		/* required */
+	padding: 2% 4% 0;
+	font-weight: bold;
+}
+
+.pssc .pssc-seatingAreaCanvas .pssc-studentDiv .pssc-studentNameWrapperDiv.hovered {
+	overflow: visible;
+}
+
+.pssc .pssc-studentDiv .pssc-studentNameWrapperDiv.hovered > div {
+	/* When hovered, overflow will be set to visible and these additional styles can be set. */
+	background-color: white;
+	-moz-box-shadow: .2em .2em .4em rgba(0, 0, 0, .8);
+	-webkit-box-shadow: .2em .2em .4em rgba(0, 0, 0, .8);
+	box-shadow: .2em .2em .4em rgba(0, 0, 0, .8);
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv, .pssc .pssc-studentDiv .pssc-preregMask {
+	/* The studentMaskDiv is drawn over most student div content. */
+	/* Styles for studentMaskDiv overwritten in JS code: font-size, line-height */
+	position: absolute;			/* required */
+	top: 0;						/* required */
+	inset-inline-start: 0;					/* required */
+	width: 100%;				/* required */
+	height: 100%;				/* required */
+	margin: 0;					/* required */
+	padding: 0;					/* required */
+	border: 0;					/* required */
+}
+
+.pssc .pssc-studentDiv .pssc-preregMask {
+	/* This is unhidden if the student is pre-enrolled. */
+	background-color: #777777;	/* required */
+	opacity: 0.6;				/* required */
+	filter: alpha(opacity=60);	/* required */
+	display: none;				/* required */
+}
+
+.pssc .pssc-studentIconDiv {
+	background-color: rgba(255, 255, 255, 0.7);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+}
+
+.pssc .pssc-studentIconDiv:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.pssc .pssc-studentIconDiv em {
+	background: url("../img/jquery/ui-icons_222222_256x240.png") no-repeat;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.pssc .pssc-studentList .pssc-studentIconDiv, .pssc .ClassToolsMode .pssc-studentIconDiv, .pssc .pssc-swapStudentButton {
+	display: none;
+}
+
+.pssc .pssc-removeStudentButton {
+	inset-inline-start: 0;
+}
+
+.pssc .pssc-removeStudentButton em {
+	background-position: -80px -128px;
+}
+
+.pssc .pssc-removeStudentButton em:hover {
+	background-position: -96px -128px;
+}
+
+.pssc .pssc-studentMaskDiv .pssc-swapStudentButton {
+	inset-inline-start: 17px;
+}
+
+.pssc .LayoutMode.StudentPairSelected .pssc-seatDiv.objselected .pssc-swapStudentButton {
+	display: block;
+}
+
+.pssc .pssc-swapStudentButton em {
+	background-position: -96px -80px;
+}
+
+.pssc .pssc-swapStudentButton em:hover {
+	background-position: -112px -80px;
+}
+
+/* Student Info Plugin (disabled) */
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .StudentInfoPlugin {
+	float: right;
+}
+
+[dir=rtl] .pssc .pssc-studentDiv .pssc-studentMaskDiv .StudentInfoPlugin {
+    float: left;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .StudentInfoPlugin em {
+	background: url("../img/jquery/ui-icons_222222_256x240.png") no-repeat -16px -144px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+
+/******************************************************************************/
+/****************** Container for Seating Chart Objects ***********************/
+/******************************************************************************/
+/* Note: seatingAreaContent & seatingAreaContainer also contain the student list and zoom UI control. */
+.pssc .pssc-seatingAreaContent {
+	position: relative;		/* required */
+	overflow: hidden;		/* required */
+	width: 100%;			/* required */
+	border-top: 1px solid #999;
+}
+
+.pssc .pssc-seatingAreaContainer, .pssc .pssc-viewportBoundaryBox {
+	/* This is for the outer most seating area container. */
+	/* Styles overwritten in JS code: margin-left */
+	position: relative;	/* required */
+	top: 0;				/* required */
+	inset-inline-start: 0;			/* required */
+	padding: 0;			/* required */
+	overflow: visible;	/* required */
+	margin: 0;
+	min-width: 800px;
+	height: 540px;
+	background: #F9F9F9;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F9F9F9', endColorstr='#DDDDDD');	/* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F9F9F9', endColorstr='#DDDDDD')";	/* IE8+ */
+	background-image: -o-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(249,249,249) 50%);	/* Opera 11.10 */
+	background-image: -moz-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(249,249,249) 50%);	/* FF 3.6+ */
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(221,221,221)), color-stop(0.5, rgb(249,249,249)) );	/* Safari 4+, Chrome 2+ */
+	background-image: -webkit-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(249,249,249) 50%);	/* Safari 5.1+, Chrome 10+ */
+	background-image: -ms-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(249,249,249) 50%);	/* IE10 */
+	background-image: linear-gradient(bottom, rgb(221,221,221) 0%, rgb(249,249,249) 50%);
+}
+
+/* Seating Area */
+.pssc .pssc-seatingAreaViewport {
+	/* This is for the visible viewport of the seating drawing canvas area. It should have the same height as the seatingAreaContainer. */
+	/* Note: All elements are drawn on the .pssc-seatingAreaCanvas, which has an offset from the viewport. */
+	/* Styles overwritten in JS code: overflow */
+	position: relative;	/* required */
+	top: 0;				/* required */
+	inset-inline-start: 0;			/* required */
+	padding: 0;			/* required */
+	overflow: auto;		/* required */
+}
+
+.pssc .pssc-seatingAreaCanvas, .pssc .pssc-seatingAreaGhostCanvas {
+	position: absolute;	/* required */
+	top: 0;				/* required */
+	left: 0;			/* required */
+}
+
+.pssc .pssc-seatingAreaMask {
+	position: absolute;	/* required */
+}
+
+/* Viewport Bounding Box display when using a zoomed preview (also set above with the container to get the background gradient) */
+.pssc .pssc-viewportBoundaryBox {
+	/* Styles overwritten in JS code: top, left, width, height */
+	position: absolute;	/* required */
+	border: 1px solid #CCC;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pssc .psseat-canvasEdgePoint {
+	/* Styles overwritten in JS code: top, left */
+	position: absolute;	/* required */
+	width: 1px;			/* required */
+	height: 1px;		/* required */
+	border: none;
+	padding: 0;
+	margin: 0;
+	background: url("../seatingchart/transparent.gif");
+}
+
+
+
+/******************************************************************************/
+/************************* Seating Chart Objects ******************************/
+/******************************************************************************/
+/* All objects in the seating area */
+.pssc-objectDiv {
+	overflow: visible;	/* required */
+	position: absolute;	/* required */
+	padding: 0;			/* required */
+	margin: 0;			/* required */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.pssc-objectDiv.objselected, .pssc-objectDiv.objhighlight {
+	border: 2px solid #FF6600;
+	-moz-box-shadow: 0 0 15px rgba(255, 102, 0, 0.9);
+	-webkit-box-shadow: 0 0 15px rgba(255, 102, 0, 0.9);
+	box-shadow: 0 0 15px rgba(255, 102, 0, 0.9);
+	background: inherit;
+	background: rgba(255, 102, 0, 0.2);
+}
+
+/* Seat Objects */
+.pssc-seatDiv {
+	/* This is a seat object with no student on it */
+	/* Styles overwritten in JS code: width, height, top, left */
+	border: 2px solid #666666;
+	background: inherit;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.pssc-seatDiv.seattaken {
+	/* This overrides the above styles when a student is added to the seat */
+	border-style: solid;
+	background: #FFF;
+}
+
+.pssc-seatDiv.hovered {
+	/* This is a seat object's style when a student is hovered over it to indicate it can be dropped on. */
+	border-color: #F93;
+	background: #F93;
+	background: rgba(255, 153, 51, 0.2);
+}
+
+/* Ghost Objects */
+.pssc-ghostDiv {
+	/* This is a temporary placeholder object */
+	/* Styles overwritten in JS code: width, height, top, left */
+	border: 2px dashed #FFF;
+	background: inherit;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.pssc-ghostDiv.hovered {
+	border-color: #F93;
+}
+
+/* TeacherDesk, Door, & WhiteBoard Objects */
+.pssc-teacherDeskDiv, .pssc-doorDiv, .pssc-whiteboardDiv {
+	/* Styles overwritten in JS code: width, height, top, left */
+	padding: 2px;		/* required */
+	border-style: none;
+}
+
+.pssc-teacherDeskDiv img, .pssc-doorDiv img, .pssc-whiteboardDiv img {
+	width: 100%;		/* required */
+	height: 100%;		/* required */
+}
+
+.pssc-teacherDeskDiv.objselected, .pssc-doorDiv.objselected, .pssc-whiteboardDiv.objselected, .pssc-teacherDeskDiv.objhighlight, .pssc-doorDiv.objhighlight, .pssc-whiteboardDiv.objhighlight {
+	padding: 0px;
+}
+
+/* Text Objects */
+.pssc-textObjDiv {
+	/* Styles overwritten in JS code: font-size, line-height */
+	white-space: nowrap;		/* required */
+	padding: 0.3em 0.6em;
+	font-weight: bold;
+	cursor: default;
+	background-color: #EEF;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-width: 2px;
+	border-style: solid;
+	border-color: #EEF;
+}
+
+.pssc-textObjDiv.objselected span {
+	cursor: text;
+}
+
+.pssc-textObjDiv.objselected, .pssc-textObjDiv.objhighlight {
+	background-color: #FFF;
+}
+
+.pssc .pssc-textObjDiv:hover:not(.objselected):not(.objhighlight) {
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 1.0);
+	border-color: #FFF;
+}
+
+.pssc .pssc-textObjDiv button {
+	margin: 0 0 0;
+	margin-inline-start: 0.6px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+/*[dir=rtl] .pssc .pssc-textObjDiv button{
+    margin: 0 0.6em 0 0.6em;
+}*/
+
+.pssc .pssc-textObjDiv button em {
+	margin: 0;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.pssc .pssc-textObjDiv button.editIcon em {
+	background-position: -64px -112px;
+}
+
+.pssc .pssc-textObjDiv button.saveIcon em {
+	background-position: -64px -144px;
+}
+
+
+
+/******************************************************************************/
+/************************ Menus, Buttons, & Dialogs ***************************/
+/******************************************************************************/
+.pssc .pssc-topMenuPanel {
+	margin-bottom: 0;	/* required */
+}
+
+.pssc .pssc-topMenuPanel ul.ui-tabs-nav {
+	margin: 0;
+}
+
+.pssc .pssc-topMenuPanel > div > div {
+	margin: 6px 0;
+	padding: 4px 10px;
+	float: left;
+}
+
+[dir=rtl] .pssc .pssc-topMenuPanel > div > div {
+    float: right;
+}
+
+.pssc div.pssc-randStudSelectMenu, .pssc div.pssc-addSeatsMenu, .pssc div.pssc-addObjectsMenu {
+	border-inline-end: 1px dotted #ccc;
+	font-size: 13px;
+}
+
+.pssc div.pssc-layoutControlsMenu {
+	font-size: 13px;
+}
+.pssc .pssc-topMenuPanel .pssc-attendanceMenu table {
+	margin: 0;
+	padding: 0;
+}
+
+.pssc .pssc-topMenuPanel .pssc-attendanceMenu table tr, .pssc .pssc-topMenuPanel .pssc-attendanceMenu table tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 13px;
+}
+
+.pssc button.submitAtt {
+	margin-inline-start: 0;
+}
+
+.pssc button.editLayout {
+	margin-inline-start: 10px;
+	margin-bottom: 1px;
+}
+
+.pssc .pssc-topMenuPanel .pssc-randStudSelectMenu {
+	padding-inline-end: 20px;
+	font-size: 13px;
+}
+
+.pssc .pssc-topLevelControls {
+	/* Styles overwritten in JS code: left */
+	position: absolute;
+	top: 1.5em;
+	height: 1px;
+	overflow: visible;
+}
+
+.pssc .pssc-layoutSelection {
+	position: absolute;
+	bottom: 0;
+	margin-inline-start: 1.5em;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+.pssc .pssc-layoutSelection select option.newlayoutoption {
+	color: gray;
+}
+
+.pssc .pssc-topMenuPanel button {
+	margin: 0 0 0;
+	margin-inline-start: 2px;
+}
+
+.pssc button em {
+	background: url("../img/jquery/ui-icons_FFFFFF_256x240.png") no-repeat -64px -112px;
+	height: 16px;
+	width: 16px;
+	margin: 0 2px 0;
+	margin-inline-start: -5px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: text-top;
+}
+
+.pssc button.pssc-populateStudent em {
+	background-position: -32px -16px;
+}
+
+[dir=rtl] .pssc button.pssc-populateStudent em {
+    background-position: -100px -16px;
+}
+
+.pssc button.pssc-clearStudent em {
+	background-position: -96px -16px;
+}
+
+[dir=rtl] .pssc button.pssc-clearStudent em {
+    background-position: -36px -16px;
+}
+
+.pssc button.editLayout em {
+	background-position: -64px -112px;
+}
+
+.pssc button.pssc-randSelect em {
+	background-position: -144px -96px;
+}
+
+.pssc .pssc-addSeatsMenu button em, .pssc .pssc-addObjectsMenu button em {
+	background: url("../seatingchart/icons-seating-chart.png") no-repeat 0 0;
+}
+
+.pssc .pssc-addObjectsMenu button em {
+	margin: 0;
+}
+
+.pssc button.pssc-addRows em {
+	background-position: 0 0;
+}
+
+.pssc button.pssc-addTables em {
+	background-position: -16px 0;
+}
+
+.pssc button.pssc-addChair em {
+	background-position: -32px 0;
+}
+
+.pssc button.pssc-addTeachDesk em {
+	background-position: -48px 0;
+}
+
+.pssc button.pssc-addBoard em {
+	background-position: -64px 0;
+}
+
+.pssc button.pssc-addDoor em {
+	background-position: -80px 0;
+}
+
+.pssc button.pssc-removeBtn em {
+	background-position: -64px -128px;
+}
+
+.pssc button.pssc-undoAction em {
+	background-position: 0 -64px;
+}
+
+.pssc button.pssc-saveLayout em {
+	background-position: -96px -112px;
+}
+
+/* Edit Layout Dialog */
+.pssc-editLayoutDialogContainer {
+	min-width: 400px;
+}
+
+.pssc-editLayoutDialogContainer label {
+	padding-inline-start: 0;
+	float: none;
+}
+
+.pssc-editLayoutDialog {
+	padding-bottom: 0.6em;
+}
+
+.pssc-editLayoutDialog #elc_combine {
+	overflow: auto;
+	max-height: 7em;
+	border: 1px solid #999;
+}
+
+.pssc-editLayoutDialog #elc_combine span {
+	margin: 5px 8px;
+}
+
+/* Populate Student Dialog */
+.pssc-populateStudentDialogContainer {
+	width: 400px;
+}
+
+.pssc-populateStudentDialogContainer label {
+	padding-inline-start: 0;
+	float: none;
+}
+
+.pssc-populateStudentDialog {
+	padding-bottom: 0.6em;
+}
+
+/* Create Seat Control */
+.pssc-createRowsDialogContainer {
+	width: 300px;
+}
+
+.pssc-createTablesDialogContainer {
+	width: 400px;
+}
+
+.pssc-createTablesDialogContainer label {
+	padding-inline-start: 0;
+	float: none;
+}
+
+.pssc-createRowsDialog, .pssc-createTablesDialog {
+	padding-bottom: 0.6em;
+}
+
+.pssc-createTablesDialog #tableorientationhorizontal {
+	margin-inline-start: 5px;
+}
+
+.pssc-createTablesDialog #totalnewchairs {
+	margin-inline-start: 5px;
+	padding-inline-start: 2px;
+}
+
+/* Existing Layout Search Panel (Part of Create New Layout) */
+.sectionLayoutTable, .sectionLayoutTable tr {
+	width: 500px;
+	overflow: auto;
+}
+
+.sectionLayoutTableDiv {
+	max-height: 175px;
+	overflow: auto;
+	overflow-x: hidden;
+	width: 500px;
+	border: 1px solid #000;
+}
+
+.sectionLayoutTableDiv > span {
+	margin: 6px;
+}
+
+.sectionLayoutTable th, .sectionLayoutTable td {
+	border-inline-start: 1px solid #000;
+}
+
+.sectionLayoutTable th:first-child, .sectionLayoutTable th:first-child {
+	width: 20px;
+	border-inline-start: none;
+}
+
+/* Dirty Data Handling */
+.pssc-dirtyDataMessage {
+	resize: none;
+	border: medium none;
+	background-color: inherit;
+	color: #333333;
+}
+
+
+
+/******************************************************************************/
+/**************************** Attendance Module *******************************/
+/******************************************************************************/
+/* Attendance Taking Module */
+.pssc .ClassToolsMode .pssc-studentDiv .pssc-studentMaskDiv .AttStudAttView {
+	position: absolute;
+	top: 0;
+	inset-inline-end: 0;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	text-align: center;
+	width: 100%;
+}
+
+.pssc .LayoutMode .pssc-studentDiv .pssc-studentMaskDiv .AttStudAttView {
+	display: none;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .AttPreRegIcon {
+	float: right;
+	height: 16px;
+	width: 16px;
+}
+
+[dir=rtl] .pssc .pssc-studentDiv .pssc-studentMaskDiv .AttPreRegIcon {
+    float: left;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .AttPreRegIcon em {
+	background: url("../img/jquery/ui-icons_888888_256x240.png") no-repeat -80px -112px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	overflow: hidden;
+	cursor: default;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .AttPreRegIcon em:hover {
+	background: url("../img/jquery/ui-icons_cd0a0a_256x240.png") no-repeat -80px -112px;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .ReadOnlyAttCode {
+	background-color: #FFFFFF;
+	text-align: center;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	float: right;
+}
+
+[dir=rtl] .pssc .pssc-studentDiv .pssc-studentMaskDiv .ReadOnlyAttCode {
+    float: left;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .CommentIcon {
+	text-align: start;
+}
+
+.pssc .pssc-studentDiv .pssc-studentMaskDiv .AttCodeSelect{
+	float: right;
+	inset-inline-end: 0;
+}
+
+[dir=rtl] .pssc .pssc-studentDiv .pssc-studentMaskDiv .AttCodeSelect{
+    float: left;
+}
+
+.AttCodeSelect {
+	padding: 1px;
+}
+
+.AttCodeInput {
+	padding: 1px !important;
+    font-size: 11px !important;
+    width: 31px !important;
+    height: 9px !important;
+   	float: right;
+    inset-inline-end: 0;
+}
+
+[dir=rtl] .AttCodeInput {
+    float: left;
+}
+
+.pssc-AttStudAttCommentView {
+	padding: 10px;
+}
+
+.pssc-AttStudAttCommentViewReadOnly {
+	padding: 10px;
+}
+
+.pssc-AttStudAttCommentViewReadOnly > textarea {
+	background-color: #d3d3d3;
+}
+
+
+
+/******************************************************************************/
+/***************************** Zoom UI Control ********************************/
+/******************************************************************************/
+/* Zoom UI Control */
+.pssc .pssc-zoomControlDiv {
+	position: absolute;
+	top: 25px;
+	inset-inline-end: 40px;
+	padding: 0;
+	width: 3px;
+	height: 100px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	overflow: visible;
+	-moz-box-shadow: 0 .0 .1em rgba(0, 0, 0, .6);
+	-webkit-box-shadow: 0 0 .1em rgba(0, 0, 0, .6);
+	box-shadow: 0 0 .1em rgba(0, 0, 0, .6);
+}
+
+.pssc .pssc-zoomControlDiv > div.zoomslider {
+	position: relative;
+	top: -5px;
+	inset-inline-start: -4px;
+	height: 60px;
+	margin: 6px 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.pssc .pssc-zoomControlDiv > div.zoomin, .pssc .pssc-zoomControlDiv > div.zoomout {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #D3D3D3;
+	background-color: #E6E6E6;
+	position: relative;
+	top: -6px;
+	inset-inline-start: -7px;
+	margin: 0;
+	padding: 0;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.pssc .pssc-zoomControlDiv > div.zoomin, .pssc .pssc-zoomControlDiv > div.zoomout, .pssc .pssc-zoomControlDiv .ui-slider-handle {
+	height: 16px;
+	width: 16px;
+	-moz-box-shadow: 0 .1em .2em rgba(0, 0, 0, .6);
+	-webkit-box-shadow: 0 .1em .2em rgba(0, 0, 0, .6);
+	box-shadow: 0 .1em .2em rgba(0, 0, 0, .6);
+}
+
+.pssc .pssc-zoomControlDiv .ui-slider-handle {
+	height: 8px;
+	margin-bottom: -4px;
+	inset-inline-start: -3px;
+}
+
+.pssc .pssc-zoomControlDiv > div.zoomin:hover, .pssc .pssc-zoomControlDiv > div.zoomout:hover {
+	border: 1px solid #999999;
+	background-color: #DADADA;
+}
+
+/******************************************************************************/
+/************************** Random Student Selector ***************************/
+/******************************************************************************/
+.randomSelectorDiv {
+	display: block;
+	width: 180px;
+	opacity: 1;
+}
+
+.randomSelectorDiv .studentPhotoDiv {
+	border: 1px solid #999;
+	margin: 5px 2px;
+	height: 155px;
+	width: 95%;
+}
+
+.randomSelectorDiv .studentPhotoDiv img {
+	width: 100%;
+	height: 100%;
+}
+.randomSelectorDiv .studentNameDiv {
+	height: 20px;
+	width: 100%;
+	background-color: #999;
+	text-align: center;
+	vertical-align: center;
+	font-face: bold;
+}
+
+/******************************************************************************/
+/************************** View Template Dialog ******************************/
+/******************************************************************************/
+.pssc-templateDiv {
+	width: 800px; 
+}
+.pssc-templateContentDiv {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+.pssc-templateObjectsDiv {
+	width: 800px;
+	height: 535px;
+	overflow: auto;
+	position: relative;
+	inset-inline-start: 0;
+	top: 0;
+}
+
+
+/******************************************************************************/
+/************************** Drag Remove Control *******************************/
+/******************************************************************************/
+.pssc .pssc-dragToRemove {
+	position: absolute;
+	top: 12%;
+	inset-inline-start: -7px;
+	height: 80%;
+	width: 7px;
+	display: none;
+	background-color: #FF6600;
+	background-color: rgba(255, 102, 0, 0.8);
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-start-start-radius: 8px;
+	-webkit-border-end-start-radius: 8px;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-start-end-radius: 0;
+	-webkit-border-end-end-radius: 0;
+	border-start-start-radius: 8px;
+	border-end-start-radius: 8px;
+	border: 1px solid #FF6600;
+	border-inline-end: 0;
+	-moz-box-shadow: 0 0 20px rgba(255, 102, 0, 1);
+	-webkit-box-shadow: 0 0 20px rgba(255, 102, 0, 1);
+	box-shadow: 0 0 20px rgba(255, 102, 0, 1);
+}
+
+.pssc .pssc-dragToRemove.hovered {
+	display: block;
+}
+
+.pssc .pssc-dragToRemove em {
+	/* Styles overwritten in JS code: top */
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	background: url("../img/jquery/ui-icons_FFFFFF_256x240.png") no-repeat -96px 0;
+	height: 16px;
+	width: 12px;
+	overflow: hidden;
+}
+
+[dir=rtl] .pssc .pssc-dragToRemove em {
+    left: 0;
+    background: url("../img/jquery/ui-icons_FFFFFF_256x240.png") no-repeat -33px 0;
+}
+
+.pssc .pssc-dragToRemove.hasScrollBars {
+	background-color: rgba(255, 102, 0, 0.9);
+	width: 9px;
+	inset-inline-start: -9px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-end-start-radius: 10px;
+	border-top-left-radius: 10px;
+	border-end-start-radius: 10px;
+}
+
+.pssc .pssc-dragToRemove.hasScrollBars em {
+	inset-inline-end: 1px;
+}
+
+/* Side menu panel extra styles for DragRemoveControl */
+.pssc .pssc-sideMenuPanel.droppable, .pssc .pssc-sideMenuPanel.droppable > div.pssc-studListHideToggle {
+	border-color: #FF6600;
+}
+
+.pssc .pssc-sideMenuPanel.droppable {
+	-moz-box-shadow: 0 -15px 25px rgba(255, 102, 0, 1);
+	-webkit-box-shadow: 0 -15px 25px rgba(255, 102, 0, 1);
+	box-shadow: 0 -15px 25px rgba(255, 102, 0, 1);
+}
+
+.pssc .pssc-sideMenuPanel.hovered .pssc-studentList {
+	background-color: #EBCCB8;
+	background-color: rgba(255, 102, 0, 0.2);
+}
+
+.pssc .pssc-sideMenuPanel.hovered.collapsed {
+	background-color: #F0B38A;
+}
+
+
+
+
+/******************************************************************************/
+/***************************** Other Controls *********************************/
+/******************************************************************************/
+.pssc .pssc-dragToSelect {
+	/* Styles overwritten in JS code: top, left, width, height, margin, padding, z-index */
+	position: absolute;		/* required */
+	border: 2px solid #FF6600;
+	background: inherit;
+	background: rgba(255, 102, 0, 0.4);
+}
+
+
+
+/******************************************************************************/
+/************************** Misc Behavior Hacks *******************************/
+/******************************************************************************/
+/* Style used on focused item while dragging multiple chart objects. This MUST be defined below all other chart object CSS*/
+.pssc .pssc-seatingAreaCanvas .pssc-objectDiv.draggingParent {
+	border-style: none;		/* required */
+	background: none;		/* required */
+	box-shadow: none;		/* required */
+}
+
+.pssc .pssc-seatingAreaCanvas .pssc-objectDiv.draggingParent > .pssc-studentDiv,
+.pssc .pssc-seatingAreaCanvas .pssc-objectDiv.draggingParent > img,
+.pssc .pssc-seatingAreaCanvas .pssc-objectDiv.draggingParent > span,
+.pssc .pssc-seatingAreaCanvas .pssc-objectDiv.draggingParent > input {
+	visibility: hidden;		/* required */
+}
+
+/* Prevents the visual feedback of highlighting text/images in the seating chart. Though, they can still be selected (just without the visual highlighting). */
+/* We have javascript prevention of "selectstart" events set up in uiManager, which works in Safari & IE. And the ::selection below for Safari & Opera. */
+.pssc .pssc-studentList, .pssc .pssc-seatingAreaViewport, .pssc .pssc-zoomControlDiv {
+	-moz-user-select: -moz-none;/* Firefox's 'none' does not allow child nodes to override. */
+	-khtml-user-select: none;
+	-webkit-user-select: none;	/* Supported in Chrome 1+ & Safari 3+ */
+	-o-user-select: none;		/* NOT supported in Opera 11, and possibly never has in Opera. */
+	-ms-user-select: none;		/* Supported in IE 10+ */
+	user-select: none;			/* Not part of W3C CSS specs, but may be used. */
+}
+
+.pssc .pssc-textObjDiv input {
+	-moz-user-select: text;
+	-khtml-user-select: text;
+	-webkit-user-select: text;
+	-o-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+/* ::selection works in Safari & Opera and prevents text from looking like it was highlighted. This doesn't prevent images or input fields from being highlighted. */
+.pssc .pssc-studentDiv::selection, .pssc .pssc-objectDiv::selection, .pssc .pssc-zoomControlDiv::selection {
+	background-color: transparent;
+}
+
+

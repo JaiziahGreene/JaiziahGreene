@@ -1,0 +1,243 @@
+[0511/100428.275:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0511/100428.340:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0511/100428.341:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=740 --mojo-platform-channel-handle=716 --sandbox-mojo-pipe-token=3471068903780954495 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_6616_ntrhgkqrmzdhmkvy"
+[0511/100428.351:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0511/100428.354:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0511/100428.355:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0511/100428.358:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0511/100428.360:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[0511/100428.361:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.371:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.402:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.410:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.432:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.435:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.439:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0511/100428.685:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0511/100428.752:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0511/100428.870:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0511/100428.870:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=988 --mojo-platform-channel-handle=984 --sandbox-mojo-pipe-token=15361909447312183705 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_6616_ntrhgkqrmzdhmkvy"
+[0511/100428.875:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0511/100428.876:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0511/100428.876:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0511/100428.877:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0511/100428.885:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0511/100428.885:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0511/100428.916:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.931:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/100428.933:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.935:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/100428.939:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.939:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/100428.940:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.942:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/100428.945:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.945:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/100428.948:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0511/100428.949:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0511/101055.987:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0511/101055.987:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0511/101055.988:ERROR:early_exit.cc(16)] Early exit with code 1
+[0706/092207.795:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0706/092207.911:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0706/092207.911:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=780 --mojo-platform-channel-handle=756 --sandbox-mojo-pipe-token=1959177811533321023 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_9124_sngrdltwplmcukzu"
+[0706/092207.917:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0706/092207.918:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0706/092207.918:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0706/092207.919:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0706/092207.923:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[0706/092207.926:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092207.993:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092208.214:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092208.380:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092209.499:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092209.510:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092209.697:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0706/092211.792:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0706/092211.870:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0706/092211.932:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0706/092211.932:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=1008 --mojo-platform-channel-handle=1004 --sandbox-mojo-pipe-token=6897912648514869488 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_9124_sngrdltwplmcukzu"
+[0706/092211.932:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0706/092211.932:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0706/092211.948:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0706/092211.948:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0706/092211.948:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0706/092211.948:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0706/092211.948:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.948:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/092211.948:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.948:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/092211.948:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.948:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/092211.964:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.964:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/092211.964:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.964:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/092211.964:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0706/092211.964:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0706/093251.838:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/121350.883:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/121352.354:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/121352.401:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=772 --mojo-platform-channel-handle=756 --sandbox-mojo-pipe-token=9122392167242388090 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_10008_meocrchhnbvacjhc"
+[0925/121352.469:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/121352.527:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/121352.558:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/121352.605:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/121352.699:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[0925/121352.761:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121352.941:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121353.173:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121353.298:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121353.464:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121354.761:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121355.204:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/121356.777:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/121357.326:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/121357.478:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/121357.509:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=800 --mojo-platform-channel-handle=936 --sandbox-mojo-pipe-token=11033756148975170195 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_10008_meocrchhnbvacjhc"
+[0925/121357.543:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/121357.559:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/121357.559:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/121357.573:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/121357.645:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/121357.667:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/121357.669:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.866:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/121357.866:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.866:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/121357.866:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.882:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/121357.898:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.929:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/121357.929:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.929:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/121357.929:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/121357.929:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124139.318:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/124139.502:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/124139.514:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=752 --mojo-platform-channel-handle=728 --sandbox-mojo-pipe-token=16083087805982096038 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_4740_vnkegjadyndcvlrg"
+[0925/124139.520:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/124139.522:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/124139.522:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/124139.523:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/124139.527:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[0925/124139.528:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.539:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.631:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.685:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.738:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.759:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124139.793:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/124140.023:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/124140.072:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/124140.175:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/124140.175:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=980 --mojo-platform-channel-handle=948 --sandbox-mojo-pipe-token=3823426128528662775 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_4740_vnkegjadyndcvlrg"
+[0925/124140.182:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/124140.184:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/124140.184:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/124140.186:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/124140.194:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/124140.195:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/124140.200:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.201:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124140.201:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.201:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124140.202:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.202:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124140.206:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.206:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124140.213:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.214:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/124140.216:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/124140.216:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142514.838:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/142514.885:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/142514.885:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=752 --mojo-platform-channel-handle=728 --sandbox-mojo-pipe-token=14929576238256363878 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_4020_bwczmwgwmytapcbo"
+[0925/142514.901:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/142514.901:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/142514.901:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/142514.901:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/142514.901:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[0925/142514.901:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142514.919:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.003:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.019:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.058:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.060:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.065:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[0925/142515.159:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/142515.206:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[0925/142515.253:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[0925/142515.253:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=992 --mojo-platform-channel-handle=988 --sandbox-mojo-pipe-token=9117247932696407091 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_4020_bwczmwgwmytapcbo"
+[0925/142515.268:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[0925/142515.268:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[0925/142515.268:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[0925/142515.268:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[0925/142515.284:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/142515.284:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.284:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.284:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.284:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.284:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.284:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[0925/142515.284:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[0925/142515.300:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094050.485:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[1101/094050.585:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[1101/094050.585:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=752 --mojo-platform-channel-handle=728 --sandbox-mojo-pipe-token=15818092615244637051 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_1868_zmrkmenbyypofqtg"
+[1101/094050.585:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[1101/094050.585:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[1101/094050.616:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[1101/094050.616:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[1101/094050.616:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[1101/094050.632:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094050.670:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094050.754:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094050.789:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094050.885:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094050.970:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094051.088:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094051.386:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[1101/094051.447:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[1101/094051.601:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[1101/094051.602:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --init-done-notifier=980 --mojo-platform-channel-handle=976 --sandbox-mojo-pipe-token=11478668609317341055 --sandboxed-process-id=3 --use-crash-handler-with-id="\\.\pipe\crashpad_1868_zmrkmenbyypofqtg"
+[1101/094051.618:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[1101/094051.622:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[1101/094051.648:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[1101/094051.657:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[1101/094051.689:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[1101/094051.696:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[1101/094051.727:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094051.727:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094051.727:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094051.743:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094051.743:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094051.774:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094051.853:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094051.868:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094052.008:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094052.070:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094052.134:ERROR:lnk_parser.cc(242)] The file has no link info structure present
+[1101/094052.181:ERROR:parser_impl.cc(64)] Error parsing the shortcut
+[1101/094240.383:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200
+[1101/094240.446:INFO:crashpad_crash_reporter.cc(159)] Crash handler launched and ready.
+[1101/094240.446:INFO:chrome_reporter_main.cc(186)] Command line arguments: "CSIDL_LOCAL_APPDATA\google\chrome\user data\swreporter\81.234.200\software_reporter_tool.exe" --enable-crash-reporting --engine=2 --init-done-notifier=752 --mojo-platform-channel-handle=716 --sandbox-mojo-pipe-token=16324393003652217292 --sandboxed-process-id=2 --use-crash-handler-with-id="\\.\pipe\crashpad_9956_btfbudbobuqfpbjk"
+[1101/094240.461:WARNING:chrome_util.cc(43)] Can't get Chrome version information from flag: The chrome-version switch was not set.
+[1101/094240.461:INFO:crashpad_crash_client.cc(256)] Found 0 completed crash reports
+[1101/094240.461:INFO:crashpad_crash_client.cc(275)] Found 0 pending crash reports
+[1101/094240.461:INFO:chrome_reporter_main.cc(200)] Crash reporting initialized.
+[1101/094240.461:INFO:engine_delegate_factory.cc(13)] Initializing the ESET engine delegate
+[1101/094240.461:INFO:libraries.cc(47)] Extracting em005_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.461:INFO:libraries.cc(47)] Extracting em004_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.629:INFO:libraries.cc(47)] Extracting em003_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.650:INFO:libraries.cc(47)] Extracting em002_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.661:INFO:libraries.cc(47)] Extracting em000_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.663:INFO:libraries.cc(47)] Extracting em001_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.666:INFO:libraries.cc(47)] Extracting edls_64.dll to c:\users\user\appdata\local\google\chrome\user data\swreporter\81.234.200
+[1101/094240.920:WARNING:crash_keys.cc(39)] Crash key "stage" being overwritten
+[1101/094241.139:INFO:scoped_logging.cc(72)] Starting logs for version: 81.234.200

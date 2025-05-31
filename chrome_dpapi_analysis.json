@@ -1,0 +1,75 @@
+{
+    "chrome_encryption_key": {
+        "encrypted_key_base64": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVTollIEcjEOr1gQy/+hcZRAAAAAcAAAARwBvAG8AZwBsAGUAIABDAGgAcgBvAG0AZQAAABBmAAAAAQAAIAAAAGK2f9PC6mPykNdMKnqPVDRjnOv1nHogdBOhfKLmyElRAAAAAA6AAAAAAgAAIAAAAM7Oqj8gMyGE18QXudTCcumMRwZVHfymx7fPLmgVxdCJMAAAAABA3u41E/Mn2Lp5LcWV72QI27wIpsGGSCfys+41JJy+SVt/CT1+46Sx4mdhDkl3sUAAAACeGzKSLl/pc94bSmt3qKgWcqxmxnjLwDMq/ugWAlARqakElhDpAFaGPE1X7fBgPDop15H1KfjCYeycH4uOIV58",
+        "encrypted_key_hex": "01000000d08c9ddf0115d1118c7a00c04fc297eb01000000553a2594811c8c43abd60432ffe85c65100000001c00000047006f006f0067006c00650020004300680072006f006d006500000010660000000100002000000062b67fd3c2ea63f290d74c2a7a8f5434639cebf59c7a207413a17ca2e6c84951000000000e8000000002000020000000ceceaa3f20332184d7c417b9d4c272e98c4706551dfca6c7b7cf2e6815c5d089300000000040deee3513f327d8ba792dc595ef6408dbbc08a6c1864827f2b3ee35249cbe495b7f093d7ee3a4b1e267610e4977b1400000009e1b32922e5fe973de1b4a6b77a8a81672ac66c678cbc0332afee816025011a9a9049610e90056863c4d57edf0603c3a29d791f529f8c261ec9c1f8b8e215e7c"
+    },
+    "encrypted_files": {
+        "cookies": {
+            "path": "/workspaces/JaiziahGreene/Lil samson bro/Local/Google/Chrome/User Data/Default/Cookies",
+            "size": 0
+        },
+        "login_data": {
+            "path": "/workspaces/JaiziahGreene/Lil samson bro/Local/Google/Chrome/User Data/Default/Login Data",
+            "size": 49152
+        },
+        "web_data": {
+            "path": "/workspaces/JaiziahGreene/Lil samson bro/Local/Google/Chrome/User Data/Default/Web Data",
+            "size": 143360
+        }
+    },
+    "raw_cookies": {
+        "total_cookies": 14,
+        "powerschool_cookies": [
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "mobileHome",
+                "value": "763230164C49FFA167B4..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "currentSchool",
+                "value": "763230F87B2FBD2A9D69..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "current_locale",
+                "value": "763230BF921529FE0698..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "psaid",
+                "value": "763230D769443FE71C4B..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "sessionKey",
+                "value": "763230618F197FBE23AB..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "lastHref",
+                "value": "7632309062466486CC68..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "uiStateCont",
+                "value": "7632300BBB9BFB0B4197..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "uiStateNav",
+                "value": "76323069BF2839858EF7..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "JSESSIONID",
+                "value": "763230E9FA36A6A85A3B..."
+            },
+            {
+                "domain": "sishrsb.ednet.ns.ca",
+                "name": "PS_HRCE",
+                "value": "763230EFD51EBC037459..."
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "gnspes": {
+    "url": "https://saml.nspes.ca/simplesaml/module.php/core/loginuserpass.php?AuthState=_26fb3356c22303fe9f0d3f4845eb5d7b8672301072%3Ahttps%3A%2F%2Fsaml.nspes.ca%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fgnspes-sp%26RelayState%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Flanding.php%26cookieTime%3D1747022775",
+    "cookies": {
+      "PHPSESSID": "06b0ku4g77bdo31eg4d3l09oui",
+      "ESimpleSAMLSessionID": "9da211b6c5e426b476da6a5f2d59384c",
+      "SimpleSAMLSessionID": "55f235937e8a6642206b8fb40cd4cfe4",
+      "HA_NSPES": "horde1|aCFzu"
+    },
+    "status_code": 200,
+    "redirects": [
+      "https://gnspes.ca/",
+      "https://everyone.ednet.ns.ca/landing.php",
+      "https://saml.nspes.ca/simplesaml/saml2/idp/SSOService.php?SAMLRequest=pVLJbsIwEP2VyPcshITFAiQKqopES0RoD71UJhnAUmKnnglt%2F74moSr0wKUnS2%2FmLX6aEYqyqPi0poNaw3sNSM5nWSjkzWDMaqO4FiiRK1ECcsp4On1c8tALeGU06UwX7IJymyEQwZDUijmL%2BZi9QTTowyDeimDXyaMedEXcyQfRcNePoygaQnfYD3ZdCLdD5ryAQcscMytk6Yg1LBSSUGShIIzdIHY74SaIeNDjnfiVOXP7G6kENawDUYXc908hPYUVoJcJH2VZFXDCmkHoy7zy03SVgjnKDLzqUDFn%2BpN6phXWJZjz9Hm9%2FNWFI5gvrcCDXAFZhz%2Fypc7rohH0W7v2DV2RYYPum1AuWsPkXOydVLlU%2B9udbtsl5A%2BbTeImq3TDJqOTNG86MpN%2FJCyBRC5IXAcc%2BZfyo%2FaEnmywxTzRhcy%2BnHttSkG3c58Qmbu7ZpWTEQolKLJ1F4X%2BmBkQBGNGpgbmT1rL60OdfAM%3D&RelayState=https%3A%2F%2Feveryone.ednet.ns.ca%2Flanding.php"
+    ]
+  },
+  "ednet": {
+    "url": "https://saml.nspes.ca/simplesaml/module.php/core/loginuserpass.php?AuthState=_ef2c51aa913960768f7179c45f37e4e4664403d793%3Ahttps%3A%2F%2Fsaml.nspes.ca%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fgnspes-sp%26RelayState%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Flanding.php%26cookieTime%3D1747022775",
+    "cookies": {
+      "PHPSESSID": "rtb5ob4mbefgmf0em3eif27pub",
+      "ESimpleSAMLSessionID": "c04d4b30419421ca61b5584d0b81edbb",
+      "SimpleSAMLSessionID": "ed2db4117b5c48b1d7c26adfbccef72b",
+      "HA_NSPES": "horde2|aCFzu"
+    },
+    "status_code": 200,
+    "redirects": [
+      "https://everyone.ednet.ns.ca/landing.php",
+      "https://saml.nspes.ca/simplesaml/saml2/idp/SSOService.php?SAMLRequest=pVLJTsMwEP2VyPcsTZpQrLZSaYWoxFI1hQMX5DiT1lJiB8%2BE5e9xExDLoRdOlt7MW%2Fw0UxRN3fJFRwe9hecOkLy3ptbI%2B8GMdVZzI1Ah16IB5CR5vri55nEQ8dYaMtLU7AflNEMggiVlNPPWqxl7SqLsHMZFkkRJMYnlZCIzEMm4quI0yyaphGpUwehMFAXzHsCiY86YE3J0xA7WGkloclAUp36U%2BqN4F415lPFR%2Bsi8lfuN0oJ61oGoRR6Gx5CBxhYwkCJE1bQ1HLF%2BEIeqbMM8v8vBvigJQXtombf4Sr00GrsG7Of0fnv9rQsvYN%2BNhgBKDeQc%2Fsg3puzqXjAc7IY39oXEHt33oXx0hpvPYi%2BULpXen%2B60GJaQX%2B12G39zl%2B%2FYfHqU5n1Hdv6PhA2QKAWJ3wGn4U%2F56XBCty7YerUxtZLv3qWxjaDTuY%2BIKv2qX%2BVkhUYFmlzddW1elxYEwYyR7YCF88Hy96HOPwA%3D&RelayState=https%3A%2F%2Feveryone.ednet.ns.ca%2Flanding.php"
+    ]
+  },
+  "saml": {
+    "url": "https://saml.nspes.ca/simplesaml/module.php/core/loginuserpass.php",
+    "cookies": {
+      "SimpleSAMLSessionID": "aafd8025a59dbfba2510963b0190972b",
+      "HA_NSPES": "horde1|aCFzu"
+    },
+    "status_code": 200,
+    "redirects": []
+  },
+  "powerschool": {
+    "url": "https://sishrsb.ednet.ns.ca/teachers/pw.html",
+    "cookies": {
+      "JSESSIONID": "F576B721FC89CF99EEEA76F750950B42",
+      "PS_HRCE": "pshrapp03|aCFzu"
+    },
+    "status_code": 200,
+    "redirects": []
+  },
+  "auth_flow": {
+    "login_url": "https://saml.nspes.ca/simplesaml/module.php/core/loginuserpass.php?AuthState=_71fdb09ede5fd1a4dbb16a671aaa6499bb54521116%3Ahttps%3A%2F%2Fsaml.nspes.ca%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Fsimplesaml%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fgnspes-sp%26RelayState%3Dhttps%253A%252F%252Feveryone.ednet.ns.ca%252Flanding.php%26cookieTime%3D1747022776",
+    "form_action": "?",
+    "form_method": "post",
+    "form_data": {
+      "username": "",
+      "password": "",
+      "remember_me": "Yes",
+      "AuthState": "_71fdb09ede5fd1a4dbb16a671aaa6499bb54521116:https://saml.nspes.ca/simplesaml/saml2/idp/SSOService.php?spentityid=https%3A%2F%2Feveryone.ednet.ns.ca%2Fsimplesaml%2Fmodule.php%2Fsaml%2Fsp%2Fmetadata.php%2Fgnspes-sp&RelayState=https%3A%2F%2Feveryone.ednet.ns.ca%2Flanding.php&cookieTime=1747022776"
+    },
+    "username_field": "username",
+    "password_field": "password",
+    "cookies": {
+      "PHPSESSID": "5585opb066ec5cjvmthcjest82",
+      "ESimpleSAMLSessionID": "ec09e811b64c05f6434b6103f479e599",
+      "SimpleSAMLSessionID": "4f22078352893ae3e9176bcbb25af4df",
+      "HA_NSPES": "horde1|aCFzu"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+Update: Parsed all found NTLM:password pairs and variant files. Next: Remove found hashes from all variant files and prepare new found/left lists as specified.
+
+---
+
+Found hash variant files:
+- ntlm_only.txt
+- lm_only.txt
+- ntlm_lm_pairs.txt
+- strong_passwords.txt
+
+Found lists:
+- All Found Hashes/105_found (1).txt
+- All Found Hashes/1_found.txt
+- All Found Hashes/2_found (2).txt
+- All Found Hashes/9_found (1).txt
+- All Found Hashes/found (1).txt
+- All Found Hashes/found_1000.txt

@@ -1,0 +1,72 @@
+[
+  {
+    "domain": "saml.nspes.ca",
+    "name": "SimpleSAMLSessionID",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "value": "DummySessionValue123",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "saml.nspes.ca",
+    "name": "HA_NSPES",
+    "path": "/",
+    "secure": false,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "value": "DummyHAValue456",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "everyone.ednet.ns.ca",
+    "name": "ESimpleSAMLSessionID",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "value": "DummyEveryoneSession789",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "everyone.ednet.ns.ca",
+    "name": "PHPSESSID",
+    "path": "/",
+    "secure": false,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "value": "DummyPHPSession123",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "sishrsb.ednet.ns.ca",
+    "name": "psaid",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "value": "DummyPSAID456",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "sishrsb.ednet.ns.ca",
+    "name": "JSESSIONID",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "value": "DummyJSESSION789",
+    "expirationDate": 1778160411
+  },
+  {
+    "domain": "sishrsb.ednet.ns.ca",
+    "name": "sessionKey",
+    "path": "/teachers",
+    "secure": false,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "value": "DummySessionKey123",
+    "expirationDate": 1809760717
+  }
+]

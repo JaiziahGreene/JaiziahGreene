@@ -1,0 +1,53 @@
+Found 4 mimikatz dump files:
+  - /workspaces/JaiziahGreene/mimikatz_output.txt
+  - /workspaces/JaiziahGreene/New MimiKatz Dumps/mimikatz PC 2.txt
+  - /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 3 Dump.txt
+  - /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 4 Dump.txt
+
+Parsing mimikatz output from /workspaces/JaiziahGreene/mimikatz_output.txt...
+Successfully decoded /workspaces/JaiziahGreene/mimikatz_output.txt with utf-16-le
+Found 247 users with NTLM hashes
+Found 247 users with LM hashes
+Found 247 users in this file.
+
+Parsing mimikatz output from /workspaces/JaiziahGreene/New MimiKatz Dumps/mimikatz PC 2.txt...
+Successfully decoded /workspaces/JaiziahGreene/New MimiKatz Dumps/mimikatz PC 2.txt with utf-16-le
+Found 247 users with NTLM hashes
+Found 247 users with LM hashes
+Found 247 users in this file.
+
+Parsing mimikatz output from /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 3 Dump.txt...
+Successfully decoded /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 3 Dump.txt with utf-8
+Found 368 users with NTLM hashes
+Found 368 users with LM hashes
+Found 368 users in this file.
+
+Parsing mimikatz output from /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 4 Dump.txt...
+Successfully decoded /workspaces/JaiziahGreene/New MimiKatz Dumps/Mimikatz PC 4 Dump.txt with utf-8
+Detected PC 4 dump format, using specialized handling...
+Found 351 users with NTLM hashes
+Found 351 users with LM hashes
+Found 351 users in this file.
+
+Found a total of 722 unique users from all mimikatz files.
+- Users with NTLM hashes: 722
+- Users with LM hashes: 722
+
+Parsing username:password:ntlm data from /workspaces/JaiziahGreene/complete_username_pass_ntlm.txt...
+Found 118 users with passwords
+Found 118 users with NTLM hashes
+Found 0 users with LM hashes
+Found 118 users from password:ntlm file.
+
+Merging all data...
+Total unique users after merging: 727
+
+Writing output to /workspaces/JaiziahGreene/complete_user_hash_data.txt...
+Done!
+
+Statistics:
+- Total users: 727
+- Users with passwords: 118
+- Users with NTLM hashes: 727
+- Users with LM hashes: 721
+- Users with only account name (no hash): 0

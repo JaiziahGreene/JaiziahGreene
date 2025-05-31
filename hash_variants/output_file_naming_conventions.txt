@@ -1,0 +1,10 @@
+// ntlm_only_found.txt: NTLM:password pairs for found hashes
+// ntlm_only_left.txt: NTLM hashes not found
+// lm_only_found.txt: LM hashes corresponding to found NTLMs (with NTLM:password for reference)
+// lm_only_left.txt: LM hashes not found
+// ntlm_lm_pairs_found.txt: NTLM:LM:password for found pairs
+// ntlm_lm_pairs_left.txt: NTLM:LM pairs not found
+// strong_passwords_found.txt: NTLM:password for found strong passwords
+// strong_passwords_left.txt: NTLM hashes not found
+
+These are the output file naming conventions for the forum release update.

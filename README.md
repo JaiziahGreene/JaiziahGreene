@@ -1,4 +1,3 @@
-
 # <div align="center">✨ Hey there, I'm Jaiziahä! ✨</div>
 
 <div align="center">
@@ -112,4 +111,3 @@ A simple weather app that tells you if you need a jacket or not lol. Uses Weathe
 <!--
 Fun fact: I spent way too much time making this README instead of actually coding 😅
 -->
-```
